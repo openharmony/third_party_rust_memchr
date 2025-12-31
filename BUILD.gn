@@ -27,4 +27,7 @@ ohos_cargo_crate("lib") {
     features = ["std"]
     build_root = "build.rs"
     build_sources = ["build.rs"]
+    module_output_extension = ".rlib"
+    part_name = "rust_memchr"
+    subsystem_name = "thirdparty"
 }
